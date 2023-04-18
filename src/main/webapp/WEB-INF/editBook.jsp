@@ -43,7 +43,7 @@
 						<form:errors path="thoughts" />
 					</div>
 					<div>
-						<form:hidden path="postedBy" value="${oneBook.postedBy.id}"></form:hidden>
+						<form:hidden path="postedBy"></form:hidden>
 					</div>
 					<button class="mt-2 btn btn-primary" type="submit">Submit</button>
 				</div>
